@@ -1,6 +1,20 @@
 {
-    "state": {
-        "started": "Hi, ${username}",
-        "stopped": "Bye, ${username}"
+  "greeting": "Enraged creatures of Chopa Sipa emerge, and only the bravest dwarves will stand against them. Do you have what it takes to be a hero, ${name}?",
+  "profile": "${emoji} <b>${name}</b>\n\n🎖 Glory: <b>${glory}</b>",
+  "emoji": {
+    "player": {
+      "1": "🧔🏻‍♂️",
+      "2": "🧔🏼‍♂️",
+      "3": "🧔🏽‍♂️",
+      "4": "🧔🏾‍♂️",
+      "5": "🧔🏻",
+      "6": "🧔🏼",
+      "7": "🧔🏽",
+      "8": "🧔🏾",
+      "9": "🧔🏻‍♀️",
+      "10": "🧔🏼‍♀️",
+      "11": "🧔🏽‍♀️",
+      "12": "🧔🏾‍♀️"
     }
+  }
 }

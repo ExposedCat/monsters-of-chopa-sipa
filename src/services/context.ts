@@ -1,4 +1,4 @@
-import { CustomContext, CustomContextMethods } from '../types/context.js'
+import type { CustomContext, CustomContextMethods } from '../types/context.js'
 
 export function createReplyWithTextFunc(
 	ctx: CustomContext

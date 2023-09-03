@@ -1,15 +1,15 @@
-import { Collection } from 'mongodb'
+import type { Collection } from 'mongodb'
 
 export interface Player {
 	userId: number
 	name: string
 	glory: number
+	emoji: number
 }
 
 export interface Chat {
 	chatId: number
 	title: string
-	lastMonsterSpawn: Date
 }
 
 export interface Database {
