@@ -1,0 +1,6 @@
+{
+    "state": {
+        "started": "Hi, ${username}",
+        "stopped": "Bye, ${username}"
+    }
+}
