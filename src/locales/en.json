@@ -1,6 +1,10 @@
 {
   "greeting": "Enraged creatures of Chopa Sipa emerge, and only the bravest dwarves will stand against them. Do you have what it takes to be a hero, ${name}?",
   "profile": "${emoji} <b>${name}</b>\n\n🎖 Glory: <b>${glory}</b>",
+  "mosterAttack": "${emoji} <b>${name}</b> emerged!",
+  "joinFight": "Join Fight",
+  "mosterAttackJoined": "${emoji} <b>${name}</b> emerged!\n<b>VS</b>\n${fighters}",
+  "fighterLine": "${emoji} ${name}\n",
   "emoji": {
     "player": {
       "1": "🧔🏻‍♂️",
@@ -15,6 +19,11 @@
       "10": "🧔🏼‍♀️",
       "11": "🧔🏽‍♀️",
       "12": "🧔🏾‍♀️"
+    },
+    "monster": {
+      "dragon": "🐲",
+      "devil": "👹",
+      "eye": "🧿"
     }
   }
 }
