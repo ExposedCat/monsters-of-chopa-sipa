@@ -5,11 +5,11 @@
   "main": "build/index.js",
   "scripts": {
     "compile": "tsc",
-    "prepare": "npm run compile && npm run copyFiles",
-    "bg:start": "npm run prepare && pm2 start build/index.js --name monsters",
-    "bg:restart": "npm run prepare && pm2 restart monsters",
+    "build": "npm run compile && npm run copyFiles",
+    "bg:start": "npm run build && pm2 start build/index.js --name monsters",
+    "bg:restart": "npm run build && pm2 restart monsters",
     "bg:logs": "pm2 logs monsters --lines 1000 -f",
-    "start": "npm run prepare && node .",
+    "start": "npm run build && node .",
     "pretty": "npx prettier --write src",
     "copyFiles": "cp -r src/locales build"
   },
