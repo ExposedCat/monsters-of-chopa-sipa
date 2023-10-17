@@ -3,7 +3,7 @@ import type { CustomContext } from '../types/context.js'
 
 export const startController = new Composer<CustomContext>()
 startController.command('start', async ctx => {
-	await ctx.text('greeting', {
-		name: ctx.entities.player.name
-	})
+  await ctx.text('greeting', {
+    name: ctx.entities.player.name
+  })
 })
