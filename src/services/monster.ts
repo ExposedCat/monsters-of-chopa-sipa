@@ -1,4 +1,5 @@
 import type { ObjectId } from 'mongodb'
+
 import type { Database, Monster } from '../types/database.js'
 
 export async function getRandomMonster(args: {

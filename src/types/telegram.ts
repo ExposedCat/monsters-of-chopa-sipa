@@ -1,4 +1,5 @@
 import type { Api, Bot as TelegramBot, NextFunction } from 'grammy'
+
 import type { CustomContext } from './context.js'
 
 export type Bot = TelegramBot<CustomContext>

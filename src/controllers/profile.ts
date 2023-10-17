@@ -1,4 +1,5 @@
 import { Composer } from 'grammy'
+
 import type { CustomContext } from '../types/context.js'
 
 export const profileController = new Composer<CustomContext>()

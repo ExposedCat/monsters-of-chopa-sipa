@@ -1,5 +1,6 @@
-import type { I18n } from '@grammyjs/i18n/dist/source/i18n.js'
 import { Bot as TelegramBot, session } from 'grammy'
+import type { I18n } from '@grammyjs/i18n'
+
 import { resolvePath } from '../helpers/resolve-path.js'
 import { createReplyWithTextFunc } from '../services/context.js'
 import type { CustomContext } from '../types/context.js'
