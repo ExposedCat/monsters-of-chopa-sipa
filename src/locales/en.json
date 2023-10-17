@@ -4,7 +4,9 @@
   "mosterAttack": "${emoji} <b>${name}</b> emerged!",
   "joinFight": "Join Fight",
   "mosterAttackJoined": "${emoji} <b>${name}</b> emerged!\n<b>VS</b>\n${fighters}",
-  "fighterLine": "${emoji} ${name}\n",
+  "partials": {
+    "fighterLine": "${emoji} ${name}\n"
+  },
   "emoji": {
     "player": {
       "1": "🧔🏻‍♂️",
