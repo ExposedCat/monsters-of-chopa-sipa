@@ -11,6 +11,7 @@ import { profileController } from '../controllers/profile.js'
 import type { Bot } from '../types/telegram.js'
 import { buildName, getOrCreatePlayer } from '../services/player.js'
 import { getOrCreateChat } from '../services/chat.js'
+import { summonController } from '../controllers/summon.js'
 
 function extendContext(bot: Bot, database: Database) {
   bot.use(async (ctx, next) => {
@@ -46,6 +47,7 @@ function setupMiddlewares(bot: Bot, localeEngine: I18n) {
 
 function setupControllers(bot: Bot) {
   bot.use(startController)
+  bot.use(summonController)
   bot.use(profileController)
 }
 
